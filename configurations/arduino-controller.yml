@@ -1,0 +1,14 @@
+message:
+  default: default-Yes
+
+---
+spring.profiles: dev
+
+message:
+  dev: dev-Yes
+
+---
+spring.profiles: prod
+
+message:
+  prod: prod-Yes
